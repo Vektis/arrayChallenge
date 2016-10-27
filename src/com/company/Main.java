@@ -50,7 +50,7 @@ SOP the name and grade
                 initIndex++;
 
                 while(true) {
-                    System.out.println("Enter a grade, and '-1' to stop entering: ");
+                    System.out.println("Enter a grade, and '-1' to stop entering(only integral values): ");
                     int gradeIn = input.nextInt();
                     if (gradeIn == -1 || counter == 3999) {
                         //records last index of grades for a student
